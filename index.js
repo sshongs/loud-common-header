@@ -5,7 +5,7 @@ import LEN from 'a/top/len.svg'
 
 export default function CommonHeader(){
     return(
-        <>
+
         <div className="bg-zinc-900 text-zinc-400 text-[11px] font-bold relative z-10">
         <div className="container mx-auto">
             <div className="flex justify-center items-center">
@@ -16,6 +16,6 @@ export default function CommonHeader(){
             </div>
         </div>
         </div>
-        </>
+
     )
 }
