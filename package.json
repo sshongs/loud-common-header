@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "loud-common-header",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
