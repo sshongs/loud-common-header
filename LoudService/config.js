@@ -1,0 +1,9 @@
+
+const CONFIG = {
+    server : 'https://service.loudcorp.com',
+    token : '0fabfe53e45957b83bc41876b062fda9c8490c44ef906538ded85bb65dab0893ceea010cac5cf502f7941c60c78111573a9ca8692fd671eb5b6a52c5412a13ea29f2b7260d531bfc27630ee0e6a1ff1206b75b467636f59200c257ea3e5a6fabcb6a0ef5a21f118744f9fa67d3acb301b73a9c8c10ef8ff2763ff63b77957381',
+    tokenRequest : 'e2b6550f299b1f7f21f232287c949f89badec7fb023e88c3ce6ad8c7e1742e4ac1c4bef179f122d28e7ede3df8c789fb3b1300ef37c0a32ee4e2288d1d9171fdb3c21efb7e2bbd39391fdba1539c7ec74f8d59754e44ad5e3ebdfcdfc459996725f947b8af018bcb4895d736ca835c014efdf1cd44773335f0bbfdb8f8f2f72b',
+    cdn : 'https://cdn.loudcorp.com'
+}
+
+export default CONFIG

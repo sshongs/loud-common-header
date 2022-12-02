@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url('../assets/font/font.woff2') format('woff2'), url('../assets/font/font.woff') format('woff');
+  }
+
+html,body{ 
+
+    font-family: noto-sans-cjk-kr, sans-serif;
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+b{
+    color:#fff;
+    font-weight: normal !important;
+
+}
+
+article{
+    b{
+        color:#000 !important;
+
+    }
+}
+
+.bold{
+    @apply font-bold
+}
+
+.engFont{
+    font-family: GilroyBold, sans-serif;
+}
+
+
+.video-full{
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+@layer utilities{
+
+
+    .word-fix{
+        word-break: keep-all;
+    }
+}
+
+@layer components{
+    .btn{
+        @apply bg-main block p-3 font-bold text-center text-black px-8 hover:scale-105 transition
+    }
+}
